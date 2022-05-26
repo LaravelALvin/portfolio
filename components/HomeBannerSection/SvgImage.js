@@ -177,7 +177,7 @@ function SvgImage() {
               }}
             />
           </linearGradient>
-          <linearGradient id="gradient-2" >
+          <linearGradient id="gradient-2">
             <stop
               offset={0}
               style={{
@@ -213,14 +213,14 @@ function SvgImage() {
               values="1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 0 0 0 1 0"
             />
             <feComponentTransfer colorInterpolationFilters="sRGB">
-              <feFuncR type="gamma" exponent={1.5} amplitude={1} offset={0} />
-              <feFuncG type="gamma" exponent={1.5} amplitude={1} offset={0} />
-              <feFuncB type="gamma" exponent={1.5} amplitude={1} offset={0} />
+              <feFuncR type="gamma" exponent={1.5} amplitude={0.3} offset={0} />
+              <feFuncG type="gamma" exponent={1.5} amplitude={0.3} offset={0} />
+              <feFuncB type="gamma" exponent={1.5} amplitude={0.3} offset={0} />
             </feComponentTransfer>
             <feComponentTransfer colorInterpolationFilters="sRGB" result="duotone">
-              <feFuncR type="table" tableValues="0.749 0.886" />
-              <feFuncG type="table" tableValues="0.251 0.427" />
-              <feFuncB type="table" tableValues="0 0" />
+              <feFuncR type="table" tableValues="0.886 0.988" />
+              <feFuncG type="table" tableValues="0.427 0.733" />
+              <feFuncB type="table" tableValues="0 0.051" />
               <feFuncA type="table" tableValues="0 1" />
             </feComponentTransfer>
           </filter>
@@ -242,9 +242,9 @@ function SvgImage() {
               <feFuncB type="gamma" exponent={1.5} amplitude={1} offset={0} />
             </feComponentTransfer>
             <feComponentTransfer colorInterpolationFilters="sRGB" result="duotone">
-              <feFuncR type="table" tableValues="0.894 0.988" />
-              <feFuncG type="table" tableValues="0.165 0.733" />
-              <feFuncB type="table" tableValues="0 0.051" />
+              <feFuncR type="table" tableValues="0.886 0.749" />
+              <feFuncG type="table" tableValues="0.427 0.125" />
+              <feFuncB type="table" tableValues="0 0" />
               <feFuncA type="table" tableValues="0 1" />
             </feComponentTransfer>
           </filter>
@@ -290,9 +290,9 @@ function SvgImage() {
               <feFuncB type="gamma" exponent={1.5} amplitude={1} offset={0} />
             </feComponentTransfer>
             <feComponentTransfer colorInterpolationFilters="sRGB" result="duotone">
-              <feFuncR type="table" tableValues="1 0.631" />
-              <feFuncG type="table" tableValues="0.467 0.008" />
-              <feFuncB type="table" tableValues="0.027 0.008" />
+              <feFuncR type="table" tableValues="1 0.839" />
+              <feFuncG type="table" tableValues="0.467 0.569" />
+              <feFuncB type="table" tableValues="0.027 0.302" />
               <feFuncA type="table" tableValues="0 1" />
             </feComponentTransfer>
           </filter>
@@ -314,9 +314,9 @@ function SvgImage() {
               <feFuncB type="gamma" exponent={1.5} amplitude={1} offset={0} />
             </feComponentTransfer>
             <feComponentTransfer colorInterpolationFilters="sRGB" result="duotone">
-              <feFuncR type="table" tableValues="1 0.722" />
-              <feFuncG type="table" tableValues="0.369 0" />
-              <feFuncB type="table" tableValues="0 0" />
+              <feFuncR type="table" tableValues="0.878 0.906" />
+              <feFuncG type="table" tableValues="0.412 0.663" />
+              <feFuncB type="table" tableValues="0.188 0.322" />
               <feFuncA type="table" tableValues="0 1" />
             </feComponentTransfer>
           </filter>
@@ -362,9 +362,9 @@ function SvgImage() {
               <feFuncB type="gamma" exponent={1.5} amplitude={1} offset={0} />
             </feComponentTransfer>
             <feComponentTransfer colorInterpolationFilters="sRGB" result="duotone">
-              <feFuncR type="table" tableValues="0.741 0.988" />
-              <feFuncG type="table" tableValues="0.043 0.733" />
-              <feFuncB type="table" tableValues="0.043 0.051" />
+              <feFuncR type="table" tableValues="0.886 0.988" />
+              <feFuncG type="table" tableValues="0.427 0.733" />
+              <feFuncB type="table" tableValues="0 0.051" />
               <feFuncA type="table" tableValues="0 1" />
             </feComponentTransfer>
           </filter>
@@ -453,14 +453,14 @@ function SvgImage() {
               values="1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 0 0 0 1 0"
             />
             <feComponentTransfer colorInterpolationFilters="sRGB">
-              <feFuncR type="gamma" exponent={1.5} amplitude={1.8} offset={0} />
-              <feFuncG type="gamma" exponent={1.5} amplitude={1.8} offset={0} />
-              <feFuncB type="gamma" exponent={1.5} amplitude={1.8} offset={0} />
+              <feFuncR type="gamma" exponent={1.5} amplitude={1} offset={0} />
+              <feFuncG type="gamma" exponent={1.5} amplitude={1} offset={0} />
+              <feFuncB type="gamma" exponent={1.5} amplitude={1} offset={0} />
             </feComponentTransfer>
             <feComponentTransfer colorInterpolationFilters="sRGB" result="duotone">
-              <feFuncR type="table" tableValues="0.886 0.749" />
-              <feFuncG type="table" tableValues="0.427 0.125" />
-              <feFuncB type="table" tableValues="0 0" />
+              <feFuncR type="table" tableValues="0.682 1" />
+              <feFuncG type="table" tableValues="0.325 0.804" />
+              <feFuncB type="table" tableValues="0.255 0.353" />
               <feFuncA type="table" tableValues="0 1" />
             </feComponentTransfer>
           </filter>
@@ -482,9 +482,9 @@ function SvgImage() {
               <feFuncB type="gamma" exponent={1.5} amplitude={1} offset={0} />
             </feComponentTransfer>
             <feComponentTransfer colorInterpolationFilters="sRGB" result="duotone">
-              <feFuncR type="table" tableValues="0.886 0.745" />
-              <feFuncG type="table" tableValues="0.427 0.192" />
-              <feFuncB type="table" tableValues="0 0.157" />
+              <feFuncR type="table" tableValues="0.69 1" />
+              <feFuncG type="table" tableValues="0.341 0.804" />
+              <feFuncB type="table" tableValues="0.255 0.353" />
               <feFuncA type="table" tableValues="0 1" />
             </feComponentTransfer>
           </filter>
@@ -506,9 +506,9 @@ function SvgImage() {
               <feFuncB type="gamma" exponent={1.5} amplitude={1} offset={0} />
             </feComponentTransfer>
             <feComponentTransfer colorInterpolationFilters="sRGB" result="duotone">
-              <feFuncR type="table" tableValues="0.855 0.745" />
-              <feFuncG type="table" tableValues="0.404 0.192" />
-              <feFuncB type="table" tableValues="0.18 0.157" />
+              <feFuncR type="table" tableValues="0.686 0.886" />
+              <feFuncG type="table" tableValues="0.333 0.631" />
+              <feFuncB type="table" tableValues="0.255 0.318" />
               <feFuncA type="table" tableValues="0 1" />
             </feComponentTransfer>
           </filter>
@@ -1104,6 +1104,9 @@ function SvgImage() {
         </g>
       </svg>
     );
+    
+    
+    
 }
 
 export default SvgImage;

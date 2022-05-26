@@ -1,6 +1,5 @@
 function SvgImage() {
   return(
-    
       <svg
         shapeRendering="geometricPrecision"
         textRendering="geometricPrecision"
@@ -15,13 +14,24 @@ function SvgImage() {
         data-aos-duration={600}
         data-aos-easing="ease-in-sine"
         xmlns="http://www.w3.org/2000/svg"
-        
+        xmlnsXlink="http://www.w3.org/1999/xlink"
       >
         <defs>
           <radialGradient
+            id="a"
+            gradientUnits="userSpaceOnUse"
+            gradientTransform="matrix(.85153 .4835 -.4835 .85153 4048 -1521)"
+            cx={5224.92}
+            cy={6767.91}
+            r={5196.53}
+          >
+            <stop offset={0} stopColor="#FF5C84" />
+            <stop offset={1} stopColor="#F53A73" />
+          </radialGradient>
+          <radialGradient
             id="b"
             gradientUnits="userSpaceOnUse"
-            gradientTransform="matrix(1.96231, 0, 0, 1.95158, -2809.507324, -6055.083496)"
+            gradientTransform="matrix(1.96231 0 0 1.95158 -2822 -6027)"
             cx={2932.28}
             cy={6333.89}
             r={5140.18}
@@ -35,6 +45,20 @@ function SvgImage() {
             <stop offset={1} stopColor="#294787" />
           </radialGradient>
           <radialGradient
+            id="c"
+            gradientUnits="userSpaceOnUse"
+            gradientTransform="matrix(1.74303 0 0 1.74302 -2753 -3574)"
+            cx={3705.55}
+            cy={4810.33}
+            r={5141.97}
+          >
+            <stop offset={0} stopColor="#FF5484" />
+            <stop offset={0.4706} stopColor="#05A7CF" />
+            <stop offset={0.5882} stopColor="#1BCFF9" />
+            <stop offset={0.7294} stopColor="#1680B3" />
+            <stop offset={1} stopColor="#216FAB" />
+          </radialGradient>
+          <radialGradient
             id="d"
             gradientUnits="userSpaceOnUse"
             gradientTransform="matrix(2.22463 0 0 2.22125 -6572 -2739)"
@@ -46,19 +70,6 @@ function SvgImage() {
             <stop offset={0.2588} stopColor="#DF6995" />
             <stop offset={0.6392} stopColor="#216FAB" />
             <stop offset={1} stopColor="#1C399F" />
-          </radialGradient>
-          <radialGradient
-            id="e"
-            gradientUnits="userSpaceOnUse"
-            gradientTransform="matrix(4.47676 0 0 4.40015 -8738 -9622)"
-            cx={2513.38}
-            cy={2829.88}
-            r={1523.62}
-          >
-            <stop offset={0} stopColor="#AA30C9" />
-            <stop offset={0.3804} stopColor="#1BCFF9" />
-            <stop offset={0.3804} stopColor="#604CBE" />
-            <stop offset={1} stopColor="#1668B3" />
           </radialGradient>
           <radialGradient
             id="j"
@@ -145,6 +156,50 @@ function SvgImage() {
             <stop offset={0.9412} stopColor="#E5935F" />
             <stop offset={1} stopColor="#E8975B" />
           </linearGradient>
+          <linearGradient
+            gradientUnits="userSpaceOnUse"
+            x1={3524}
+            y1={2302}
+            x2={3524}
+            y2={4597}
+            id="gradient-0"
+          >
+            <stop
+              offset={0}
+              style={{
+                stopColor: "rgba(187, 218, 85, 1)",
+              }}
+            />
+            <stop
+              offset={1}
+              style={{
+                stopColor: "rgba(135, 165, 36, 1)",
+              }}
+            />
+          </linearGradient>
+          <linearGradient id="gradient-2" >
+            <stop
+              offset={0}
+              style={{
+                stopColor: "rgb(191, 32, 0)",
+              }}
+            />
+            <stop
+              offset={0.65}
+              style={{
+                stopColor: "rgb(226, 109, 0)",
+              }}
+            />
+          </linearGradient>
+          <linearGradient
+            id="gradient-2-0"
+            gradientUnits="userSpaceOnUse"
+            x1={3524}
+            y1={2302}
+            x2={3524}
+            y2={4597}
+            xlinkHref="#gradient-2"
+          />
           <filter
             id="duotone-filter-0"
             x="-500%"
@@ -163,201 +218,9 @@ function SvgImage() {
               <feFuncB type="gamma" exponent={1.5} amplitude={1} offset={0} />
             </feComponentTransfer>
             <feComponentTransfer colorInterpolationFilters="sRGB" result="duotone">
-              <feFuncR type="table" tableValues="0.741 0.988" />
-              <feFuncG type="table" tableValues="0.043 0.733" />
-              <feFuncB type="table" tableValues="0.569 0.051" />
-              <feFuncA type="table" tableValues="0 1" />
-            </feComponentTransfer>
-          </filter>
-          <filter
-            id="duotone-filter-2"
-            x="-500%"
-            y="-500%"
-            width="1000%"
-            height="1000%"
-          >
-            <feColorMatrix
-              type="matrix"
-              result="grayscale"
-              values="1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 0 0 0 1 0"
-            />
-            <feComponentTransfer colorInterpolationFilters="sRGB">
-              <feFuncR type="gamma" exponent={1.5} amplitude={1} offset={0} />
-              <feFuncG type="gamma" exponent={1.5} amplitude={1} offset={0} />
-              <feFuncB type="gamma" exponent={1.5} amplitude={1} offset={0} />
-            </feComponentTransfer>
-            <feComponentTransfer colorInterpolationFilters="sRGB" result="duotone">
-              <feFuncR type="table" tableValues="0.886 0.749" />
-              <feFuncG type="table" tableValues="0.427 0.125" />
+              <feFuncR type="table" tableValues="0.749 0.886" />
+              <feFuncG type="table" tableValues="0.251 0.427" />
               <feFuncB type="table" tableValues="0 0" />
-              <feFuncA type="table" tableValues="0 1" />
-            </feComponentTransfer>
-          </filter>
-          <filter
-            id="duotone-filter-3"
-            x="-500%"
-            y="-500%"
-            width="1000%"
-            height="1000%"
-          >
-            <feColorMatrix
-              type="matrix"
-              result="grayscale"
-              values="1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 0 0 0 1 0"
-            />
-            <feComponentTransfer colorInterpolationFilters="sRGB">
-              <feFuncR type="gamma" exponent={1.5} amplitude={1} offset={0} />
-              <feFuncG type="gamma" exponent={1.5} amplitude={1} offset={0} />
-              <feFuncB type="gamma" exponent={1.5} amplitude={1} offset={0} />
-            </feComponentTransfer>
-            <feComponentTransfer colorInterpolationFilters="sRGB" result="duotone">
-              <feFuncR type="table" tableValues="0.886 0.988" />
-              <feFuncG type="table" tableValues="0.427 0.733" />
-              <feFuncB type="table" tableValues="0 0.051" />
-              <feFuncA type="table" tableValues="0 1" />
-            </feComponentTransfer>
-          </filter>
-          <filter
-            id="duotone-filter-4"
-            x="-500%"
-            y="-500%"
-            width="1000%"
-            height="1000%"
-          >
-            <feColorMatrix
-              type="matrix"
-              result="grayscale"
-              values="1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 0 0 0 1 0"
-            />
-            <feComponentTransfer colorInterpolationFilters="sRGB">
-              <feFuncR type="gamma" exponent={1.5} amplitude={1} offset={0} />
-              <feFuncG type="gamma" exponent={1.5} amplitude={1} offset={0} />
-              <feFuncB type="gamma" exponent={1.5} amplitude={1} offset={0} />
-            </feComponentTransfer>
-            <feComponentTransfer colorInterpolationFilters="sRGB" result="duotone">
-              <feFuncR type="table" tableValues="0.886 0.988" />
-              <feFuncG type="table" tableValues="0.427 0.733" />
-              <feFuncB type="table" tableValues="0 0.051" />
-              <feFuncA type="table" tableValues="0 1" />
-            </feComponentTransfer>
-          </filter>
-          <filter
-            id="duotone-filter-5"
-            x="-500%"
-            y="-500%"
-            width="1000%"
-            height="1000%"
-          >
-            <feColorMatrix
-              type="matrix"
-              result="grayscale"
-              values="1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 0 0 0 1 0"
-            />
-            <feComponentTransfer colorInterpolationFilters="sRGB">
-              <feFuncR type="gamma" exponent={1.5} amplitude={1} offset={0} />
-              <feFuncG type="gamma" exponent={1.5} amplitude={1} offset={0} />
-              <feFuncB type="gamma" exponent={1.5} amplitude={1} offset={0} />
-            </feComponentTransfer>
-            <feComponentTransfer colorInterpolationFilters="sRGB" result="duotone">
-              <feFuncR type="table" tableValues="0.886 0.749" />
-              <feFuncG type="table" tableValues="0.427 0.125" />
-              <feFuncB type="table" tableValues="0 0" />
-              <feFuncA type="table" tableValues="0 1" />
-            </feComponentTransfer>
-          </filter>
-          <filter
-            id="duotone-filter-6"
-            x="-500%"
-            y="-500%"
-            width="1000%"
-            height="1000%"
-          >
-            <feColorMatrix
-              type="matrix"
-              result="grayscale"
-              values="1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 0 0 0 1 0"
-            />
-            <feComponentTransfer colorInterpolationFilters="sRGB">
-              <feFuncR type="gamma" exponent={1.5} amplitude={1} offset={0} />
-              <feFuncG type="gamma" exponent={1.5} amplitude={1} offset={0} />
-              <feFuncB type="gamma" exponent={1.5} amplitude={1} offset={0} />
-            </feComponentTransfer>
-            <feComponentTransfer colorInterpolationFilters="sRGB" result="duotone">
-              <feFuncR type="table" tableValues="0.886 0.988" />
-              <feFuncG type="table" tableValues="0.427 0.733" />
-              <feFuncB type="table" tableValues="0 0.051" />
-              <feFuncA type="table" tableValues="0 1" />
-            </feComponentTransfer>
-          </filter>
-          <filter
-            id="duotone-filter-7"
-            x="-500%"
-            y="-500%"
-            width="1000%"
-            height="1000%"
-          >
-            <feColorMatrix
-              type="matrix"
-              result="grayscale"
-              values="1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 0 0 0 1 0"
-            />
-            <feComponentTransfer colorInterpolationFilters="sRGB">
-              <feFuncR type="gamma" exponent={1.5} amplitude={1} offset={0} />
-              <feFuncG type="gamma" exponent={1.5} amplitude={1} offset={0} />
-              <feFuncB type="gamma" exponent={1.5} amplitude={1} offset={0} />
-            </feComponentTransfer>
-            <feComponentTransfer colorInterpolationFilters="sRGB" result="duotone">
-              <feFuncR type="table" tableValues="0.886 0.988" />
-              <feFuncG type="table" tableValues="0.427 0.733" />
-              <feFuncB type="table" tableValues="0 0.051" />
-              <feFuncA type="table" tableValues="0 1" />
-            </feComponentTransfer>
-          </filter>
-          <filter
-            id="duotone-filter-8"
-            x="-500%"
-            y="-500%"
-            width="1000%"
-            height="1000%"
-          >
-            <feColorMatrix
-              type="matrix"
-              result="grayscale"
-              values="1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 0 0 0 1 0"
-            />
-            <feComponentTransfer colorInterpolationFilters="sRGB">
-              <feFuncR type="gamma" exponent={1.5} amplitude={1} offset={0} />
-              <feFuncG type="gamma" exponent={1.5} amplitude={1} offset={0} />
-              <feFuncB type="gamma" exponent={1.5} amplitude={1} offset={0} />
-            </feComponentTransfer>
-            <feComponentTransfer colorInterpolationFilters="sRGB" result="duotone">
-              <feFuncR type="table" tableValues="0.616 0.749" />
-              <feFuncG type="table" tableValues="0.306 0.125" />
-              <feFuncB type="table" tableValues="0.012 0" />
-              <feFuncA type="table" tableValues="0 1" />
-            </feComponentTransfer>
-          </filter>
-          <filter
-            id="duotone-filter-9"
-            x="-500%"
-            y="-500%"
-            width="1000%"
-            height="1000%"
-          >
-            <feColorMatrix
-              type="matrix"
-              result="grayscale"
-              values="1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 0 0 0 1 0"
-            />
-            <feComponentTransfer colorInterpolationFilters="sRGB">
-              <feFuncR type="gamma" exponent={1.5} amplitude={1} offset={0} />
-              <feFuncG type="gamma" exponent={1.5} amplitude={1} offset={0} />
-              <feFuncB type="gamma" exponent={1.5} amplitude={1} offset={0} />
-            </feComponentTransfer>
-            <feComponentTransfer colorInterpolationFilters="sRGB" result="duotone">
-              <feFuncR type="table" tableValues="0.741 0.988" />
-              <feFuncG type="table" tableValues="0.043 0.733" />
-              <feFuncB type="table" tableValues="0.569 0.051" />
               <feFuncA type="table" tableValues="0 1" />
             </feComponentTransfer>
           </filter>
@@ -379,62 +242,158 @@ function SvgImage() {
               <feFuncB type="gamma" exponent={1.5} amplitude={1} offset={0} />
             </feComponentTransfer>
             <feComponentTransfer colorInterpolationFilters="sRGB" result="duotone">
-              <feFuncR type="table" tableValues="0.682 1" />
-              <feFuncG type="table" tableValues="0.325 0.804" />
-              <feFuncB type="table" tableValues="0.255 0.353" />
-              <feFuncA type="table" tableValues="0 1" />
-            </feComponentTransfer>
-          </filter>
-          <filter
-            id="duotone-filter-11"
-            x="-500%"
-            y="-500%"
-            width="1000%"
-            height="1000%"
-          >
-            <feColorMatrix
-              type="matrix"
-              result="grayscale"
-              values="1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 0 0 0 1 0"
-            />
-            <feComponentTransfer colorInterpolationFilters="sRGB">
-              <feFuncR type="gamma" exponent={1.5} amplitude={1} offset={0} />
-              <feFuncG type="gamma" exponent={1.5} amplitude={1} offset={0} />
-              <feFuncB type="gamma" exponent={1.5} amplitude={1} offset={0} />
-            </feComponentTransfer>
-            <feComponentTransfer colorInterpolationFilters="sRGB" result="duotone">
-              <feFuncR type="table" tableValues="0.071 0.988" />
-              <feFuncG type="table" tableValues="0.149 0.733" />
-              <feFuncB type="table" tableValues="0.38 0.051" />
-              <feFuncA type="table" tableValues="0 1" />
-            </feComponentTransfer>
-          </filter>
-          <filter
-            id="duotone-filter-12"
-            x="-500%"
-            y="-500%"
-            width="1000%"
-            height="1000%"
-          >
-            <feColorMatrix
-              type="matrix"
-              result="grayscale"
-              values="1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 0 0 0 1 0"
-            />
-            <feComponentTransfer colorInterpolationFilters="sRGB">
-              <feFuncR type="gamma" exponent={1.5} amplitude={1} offset={0} />
-              <feFuncG type="gamma" exponent={1.5} amplitude={1} offset={0} />
-              <feFuncB type="gamma" exponent={1.5} amplitude={1} offset={0} />
-            </feComponentTransfer>
-            <feComponentTransfer colorInterpolationFilters="sRGB" result="duotone">
-              <feFuncR type="table" tableValues="0 0.988" />
-              <feFuncG type="table" tableValues="0 0.733" />
+              <feFuncR type="table" tableValues="0.894 0.988" />
+              <feFuncG type="table" tableValues="0.165 0.733" />
               <feFuncB type="table" tableValues="0 0.051" />
               <feFuncA type="table" tableValues="0 1" />
             </feComponentTransfer>
           </filter>
           <filter
-            id="duotone-filter-13"
+            id="duotone-filter-2"
+            x="-500%"
+            y="-500%"
+            width="1000%"
+            height="1000%"
+          >
+            <feColorMatrix
+              type="matrix"
+              result="grayscale"
+              values="1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 0 0 0 1 0"
+            />
+            <feComponentTransfer colorInterpolationFilters="sRGB">
+              <feFuncR type="gamma" exponent={1.5} amplitude={1} offset={0} />
+              <feFuncG type="gamma" exponent={1.5} amplitude={1} offset={0} />
+              <feFuncB type="gamma" exponent={1.5} amplitude={1} offset={0} />
+            </feComponentTransfer>
+            <feComponentTransfer colorInterpolationFilters="sRGB" result="duotone">
+              <feFuncR type="table" tableValues="0.741 0.988" />
+              <feFuncG type="table" tableValues="0.043 0.733" />
+              <feFuncB type="table" tableValues="0.569 0.051" />
+              <feFuncA type="table" tableValues="0 1" />
+            </feComponentTransfer>
+          </filter>
+          <filter
+            id="duotone-filter-3"
+            x="-500%"
+            y="-500%"
+            width="1000%"
+            height="1000%"
+          >
+            <feColorMatrix
+              type="matrix"
+              result="grayscale"
+              values="1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 0 0 0 1 0"
+            />
+            <feComponentTransfer colorInterpolationFilters="sRGB">
+              <feFuncR type="gamma" exponent={1.5} amplitude={1} offset={0} />
+              <feFuncG type="gamma" exponent={1.5} amplitude={1} offset={0} />
+              <feFuncB type="gamma" exponent={1.5} amplitude={1} offset={0} />
+            </feComponentTransfer>
+            <feComponentTransfer colorInterpolationFilters="sRGB" result="duotone">
+              <feFuncR type="table" tableValues="1 0.631" />
+              <feFuncG type="table" tableValues="0.467 0.008" />
+              <feFuncB type="table" tableValues="0.027 0.008" />
+              <feFuncA type="table" tableValues="0 1" />
+            </feComponentTransfer>
+          </filter>
+          <filter
+            id="duotone-filter-4"
+            x="-500%"
+            y="-500%"
+            width="1000%"
+            height="1000%"
+          >
+            <feColorMatrix
+              type="matrix"
+              result="grayscale"
+              values="1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 0 0 0 1 0"
+            />
+            <feComponentTransfer colorInterpolationFilters="sRGB">
+              <feFuncR type="gamma" exponent={1.5} amplitude={1} offset={0} />
+              <feFuncG type="gamma" exponent={1.5} amplitude={1} offset={0} />
+              <feFuncB type="gamma" exponent={1.5} amplitude={1} offset={0} />
+            </feComponentTransfer>
+            <feComponentTransfer colorInterpolationFilters="sRGB" result="duotone">
+              <feFuncR type="table" tableValues="1 0.722" />
+              <feFuncG type="table" tableValues="0.369 0" />
+              <feFuncB type="table" tableValues="0 0" />
+              <feFuncA type="table" tableValues="0 1" />
+            </feComponentTransfer>
+          </filter>
+          <filter
+            id="duotone-filter-5"
+            x="-500%"
+            y="-500%"
+            width="1000%"
+            height="1000%"
+          >
+            <feColorMatrix
+              type="matrix"
+              result="grayscale"
+              values="1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 0 0 0 1 0"
+            />
+            <feComponentTransfer colorInterpolationFilters="sRGB">
+              <feFuncR type="gamma" exponent={1.5} amplitude={1} offset={0} />
+              <feFuncG type="gamma" exponent={1.5} amplitude={1} offset={0} />
+              <feFuncB type="gamma" exponent={1.5} amplitude={1} offset={0} />
+            </feComponentTransfer>
+            <feComponentTransfer colorInterpolationFilters="sRGB" result="duotone">
+              <feFuncR type="table" tableValues="0.212 0.988" />
+              <feFuncG type="table" tableValues="0.2 0.733" />
+              <feFuncB type="table" tableValues="0.2 0.051" />
+              <feFuncA type="table" tableValues="0 1" />
+            </feComponentTransfer>
+          </filter>
+          <filter
+            id="duotone-filter-6"
+            x="-500%"
+            y="-500%"
+            width="1000%"
+            height="1000%"
+          >
+            <feColorMatrix
+              type="matrix"
+              result="grayscale"
+              values="1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 0 0 0 1 0"
+            />
+            <feComponentTransfer colorInterpolationFilters="sRGB">
+              <feFuncR type="gamma" exponent={1.5} amplitude={1} offset={0} />
+              <feFuncG type="gamma" exponent={1.5} amplitude={1} offset={0} />
+              <feFuncB type="gamma" exponent={1.5} amplitude={1} offset={0} />
+            </feComponentTransfer>
+            <feComponentTransfer colorInterpolationFilters="sRGB" result="duotone">
+              <feFuncR type="table" tableValues="0.741 0.988" />
+              <feFuncG type="table" tableValues="0.043 0.733" />
+              <feFuncB type="table" tableValues="0.043 0.051" />
+              <feFuncA type="table" tableValues="0 1" />
+            </feComponentTransfer>
+          </filter>
+          <filter
+            id="duotone-filter-7"
+            x="-500%"
+            y="-500%"
+            width="1000%"
+            height="1000%"
+          >
+            <feColorMatrix
+              type="matrix"
+              result="grayscale"
+              values="1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 0 0 0 1 0"
+            />
+            <feComponentTransfer colorInterpolationFilters="sRGB">
+              <feFuncR type="gamma" exponent={1.5} amplitude={1} offset={0} />
+              <feFuncG type="gamma" exponent={1.5} amplitude={1} offset={0} />
+              <feFuncB type="gamma" exponent={1.5} amplitude={1} offset={0} />
+            </feComponentTransfer>
+            <feComponentTransfer colorInterpolationFilters="sRGB" result="duotone">
+              <feFuncR type="table" tableValues="0.741 0.988" />
+              <feFuncG type="table" tableValues="0.043 0.733" />
+              <feFuncB type="table" tableValues="0.569 0.051" />
+              <feFuncA type="table" tableValues="0 1" />
+            </feComponentTransfer>
+          </filter>
+          <filter
+            id="duotone-filter-8"
             x="-500%"
             y="-500%"
             width="1000%"
@@ -458,30 +417,155 @@ function SvgImage() {
             </feComponentTransfer>
           </filter>
           <filter
-            id="outline-filter-0"
+            id="duotone-filter-9"
             x="-500%"
             y="-500%"
             width="1000%"
             height="1000%"
           >
-            <feMorphology
-              in="SourceAlpha"
-              result="dilated"
-              operator="dilate"
-              radius={4}
+            <feColorMatrix
+              type="matrix"
+              result="grayscale"
+              values="1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 0 0 0 1 0"
             />
-            <feFlood floodColor="rgba(0,0,0,1)" result="flood" />
-            <feComposite in="flood" in2="dilated" operator="in" result="outline" />
-            <feMerge>
-              <feMergeNode in="outline" />
-              <feMergeNode in="SourceGraphic" />
-            </feMerge>
+            <feComponentTransfer colorInterpolationFilters="sRGB">
+              <feFuncR type="gamma" exponent={1.5} amplitude={1} offset={0} />
+              <feFuncG type="gamma" exponent={1.5} amplitude={1} offset={0} />
+              <feFuncB type="gamma" exponent={1.5} amplitude={1} offset={0} />
+            </feComponentTransfer>
+            <feComponentTransfer colorInterpolationFilters="sRGB" result="duotone">
+              <feFuncR type="table" tableValues="0.741 0.886" />
+              <feFuncG type="table" tableValues="0.043 0.427" />
+              <feFuncB type="table" tableValues="0.569 0" />
+              <feFuncA type="table" tableValues="0 1" />
+            </feComponentTransfer>
+          </filter>
+          <filter
+            id="duotone-filter-10"
+            x="-500%"
+            y="-500%"
+            width="1000%"
+            height="1000%"
+          >
+            <feColorMatrix
+              type="matrix"
+              result="grayscale"
+              values="1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 0 0 0 1 0"
+            />
+            <feComponentTransfer colorInterpolationFilters="sRGB">
+              <feFuncR type="gamma" exponent={1.5} amplitude={1.8} offset={0} />
+              <feFuncG type="gamma" exponent={1.5} amplitude={1.8} offset={0} />
+              <feFuncB type="gamma" exponent={1.5} amplitude={1.8} offset={0} />
+            </feComponentTransfer>
+            <feComponentTransfer colorInterpolationFilters="sRGB" result="duotone">
+              <feFuncR type="table" tableValues="0.886 0.749" />
+              <feFuncG type="table" tableValues="0.427 0.125" />
+              <feFuncB type="table" tableValues="0 0" />
+              <feFuncA type="table" tableValues="0 1" />
+            </feComponentTransfer>
+          </filter>
+          <filter
+            id="duotone-filter-11"
+            x="-500%"
+            y="-500%"
+            width="1000%"
+            height="1000%"
+          >
+            <feColorMatrix
+              type="matrix"
+              result="grayscale"
+              values="1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 0 0 0 1 0"
+            />
+            <feComponentTransfer colorInterpolationFilters="sRGB">
+              <feFuncR type="gamma" exponent={1.5} amplitude={1} offset={0} />
+              <feFuncG type="gamma" exponent={1.5} amplitude={1} offset={0} />
+              <feFuncB type="gamma" exponent={1.5} amplitude={1} offset={0} />
+            </feComponentTransfer>
+            <feComponentTransfer colorInterpolationFilters="sRGB" result="duotone">
+              <feFuncR type="table" tableValues="0.886 0.745" />
+              <feFuncG type="table" tableValues="0.427 0.192" />
+              <feFuncB type="table" tableValues="0 0.157" />
+              <feFuncA type="table" tableValues="0 1" />
+            </feComponentTransfer>
+          </filter>
+          <filter
+            id="duotone-filter-12"
+            x="-500%"
+            y="-500%"
+            width="1000%"
+            height="1000%"
+          >
+            <feColorMatrix
+              type="matrix"
+              result="grayscale"
+              values="1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 0 0 0 1 0"
+            />
+            <feComponentTransfer colorInterpolationFilters="sRGB">
+              <feFuncR type="gamma" exponent={1.5} amplitude={1} offset={0} />
+              <feFuncG type="gamma" exponent={1.5} amplitude={1} offset={0} />
+              <feFuncB type="gamma" exponent={1.5} amplitude={1} offset={0} />
+            </feComponentTransfer>
+            <feComponentTransfer colorInterpolationFilters="sRGB" result="duotone">
+              <feFuncR type="table" tableValues="0.855 0.745" />
+              <feFuncG type="table" tableValues="0.404 0.192" />
+              <feFuncB type="table" tableValues="0.18 0.157" />
+              <feFuncA type="table" tableValues="0 1" />
+            </feComponentTransfer>
+          </filter>
+          <filter
+            id="duotone-filter-13"
+            x="-500%"
+            y="-500%"
+            width="1000%"
+            height="1000%"
+          >
+            <feColorMatrix
+              type="matrix"
+              result="grayscale"
+              values="1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 0 0 0 1 0"
+            />
+            <feComponentTransfer colorInterpolationFilters="sRGB">
+              <feFuncR type="gamma" exponent={1.5} amplitude={1} offset={0} />
+              <feFuncG type="gamma" exponent={1.5} amplitude={1} offset={0} />
+              <feFuncB type="gamma" exponent={1.5} amplitude={1} offset={0} />
+            </feComponentTransfer>
+            <feComponentTransfer colorInterpolationFilters="sRGB" result="duotone">
+              <feFuncR type="table" tableValues="0 0" />
+              <feFuncG type="table" tableValues="0 0" />
+              <feFuncB type="table" tableValues="0 0" />
+              <feFuncA type="table" tableValues="0 1" />
+            </feComponentTransfer>
+          </filter>
+          <filter
+            id="duotone-filter-14"
+            x="-500%"
+            y="-500%"
+            width="1000%"
+            height="1000%"
+          >
+            <feColorMatrix
+              type="matrix"
+              result="grayscale"
+              values="1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 0 0 0 1 0"
+            />
+            <feComponentTransfer colorInterpolationFilters="sRGB">
+              <feFuncR type="gamma" exponent={1.5} amplitude={1} offset={0} />
+              <feFuncG type="gamma" exponent={1.5} amplitude={1} offset={0} />
+              <feFuncB type="gamma" exponent={1.5} amplitude={1} offset={0} />
+            </feComponentTransfer>
+            <feComponentTransfer colorInterpolationFilters="sRGB" result="duotone">
+              <feFuncR type="table" tableValues="0.847 0.988" />
+              <feFuncG type="table" tableValues="0.392 0.733" />
+              <feFuncB type="table" tableValues="0.18 0.051" />
+              <feFuncA type="table" tableValues="0 1" />
+            </feComponentTransfer>
           </filter>
         </defs>
         <path
+          fill="url(#a)"
           d="M12274 7225c-61 0-122-15-176-47l-629-363c-30-17-48-48-48-83 0-34 18-65 48-82l629-363c109-63 244-63 352 0l629 363c30 17 48 48 48 82 0 35-18 66-48 83l-629 363c-54 32-115 47-176 47zM3493 5178c-84 0-169-21-244-65l-890-514c-39-22-62-62-62-106 0-45 23-85 62-107l890-514c150-87 337-87 487 0l890 514c39 22 62 62 62 107 0 44-23 84-62 106l-890 514c-75 44-159 65-243 65zm-215-115c133 77 297 77 429 0l890-514c21-12 33-33 33-56 0-24-12-45-33-57l-890-514c-132-76-297-76-429 0l-890 514c-21 12-33 33-33 57 0 23 12 44 33 56l890 514zM1026 7797c-61 0-122-16-176-47l-629-363c-30-18-48-48-48-83s18-66 48-83l629-363c108-63 243-63 352 0l629 363c30 18 48 48 48 83s-18 66-48 83l-629 363c-55 31-115 47-176 47zm0-928c-51 0-102 13-148 39l-629 363c-16 10-18 26-18 33s2 23 19 33l629 363c90 52 203 52 294 0l629-363c17-10 19-26 19-33s-2-23-19-33l-629-363c-46-26-96-39-147-39zm6472 2981c-52 0-103-11-141-33L2224 6853c-42-24-65-59-65-98 0-45 31-89 86-120l3499-2050c96-56 237-61 321-13l5133 2964c42 24 65 59 65 98 0 45-32 89-86 121L7678 9805c-52 30-117 45-180 45zM5924 4597c-53 0-109 13-151 38L2274 6685c-36 20-57 47-57 70s19 39 36 48l5133 2964c65 38 186 32 263-12l3499-2050c36-21 57-47 57-71 0-22-20-38-36-48L6036 4622c-30-16-70-25-112-25zm7395 3826c-37 0-74-10-108-29l-365-211c-22-12-34-34-34-59 0-24 12-46 34-58l365-211c67-39 150-39 217 0l365 211c22 12 34 34 34 58 0 25-12 47-34 59l-365 211c-34 19-71 29-109 29zm0-539c-27 0-54 7-79 21l-365 211c-5 2-5 6-5 8s0 6 5 9l365 211c49 28 110 28 159 0l365-211c5-3 5-7 5-9s0-6-5-8l-365-211c-25-14-52-21-80-21zm-1192-756c91 53 204 53 294 0l629-363c17-10 19-26 19-33 0-6-2-22-19-32l-629-363c-90-53-203-53-294 0l-629 363c-17 10-19 26-19 32 0 7 2 23 19 33l629 363z"
           style={{
-            fill: "rgb(226, 112, 48)",
+            filter: "url(#duotone-filter-9)",
           }}
         />
         <g id="lift-img-scroll">
@@ -496,22 +580,21 @@ function SvgImage() {
           />
           <path
             fill="url(#b)"
-            d="M 10498.493 7196.918 L 10500.493 7197.918 L 6075.493 4643.918 C 6010.493 4605.918 5896.493 4610.918 5821.493 4653.918 L 2962.493 6304.918 L 2867.493 6267.918 L 2894.493 6401.918 C 2897.493 6421.918 2911.493 6440.918 2937.493 6455.918 L 3048.162 6519.802 L 7403.493 9033.918 C 7468.493 9071.918 7581.493 9066.918 7656.493 9022.918 L 10523.493 7368.918 C 10558.493 7347.918 10578.493 7322.918 10583.493 7297.918 L 10584.493 7297.918 L 10611.493 7167.918 L 10498.493 7196.918 Z"
+            d="m10486 7225 2 1-4425-2554c-65-38-179-33-254 10L2950 6333l-95-37 27 134c3 20 17 39 43 54l4466 2578c65 38 178 33 253-11l2867-1654c35-21 55-46 60-71h1l27-130-113 29z"
             style={{
-              filter: "url(#duotone-filter-1)",
+              filter: "url(#duotone-filter-11)",
             }}
           />
           <path
+            fill="url(#c)"
             d="M7395 8944 2898 6348c-66-38-58-104 18-148l2887-1667c75-43 190-48 255-10l4498 2596c66 38 57 104-18 148L7651 8934c-76 43-190 48-256 10z"
             style={{
-              fillRule: "evenodd",
-              fill: "none",
-              filter: "url(#duotone-filter-0)",
+              filter: "url(#duotone-filter-10)",
             }}
           />
           <path
             fill="#fff"
-            d="M 10544 7200 L 7657 8867 C 7581 8910 7467 8915 7401 8877 L 2904 6281 C 2881 6268 2868 6251 2863 6234 C 2854 6264 2867 6294 2904 6316 L 7401 8912 C 7467 8950 7581 8945 7657 8902 L 10544 7235 C 10593 7206 10613 7168 10603 7134 C 10596 7158 10577 7181 10544 7200 Z"
+            d="M10538 7232 7651 8899c-76 43-190 48-256 10L2898 6313c-23-13-36-30-41-47-9 30 4 60 41 82l4497 2596c66 38 180 33 256-10l2887-1667c49-29 69-67 59-101-7 24-26 47-59 66z"
           />
           <path
             fill="#06033E"
@@ -842,7 +925,7 @@ function SvgImage() {
             fill="url(#d)"
             d="M10570 7128 6091 4542c-71-41-108-140-83-221l1014-3290c25-81 102-114 173-74l4479 2587c71 40 108 139 83 221l-1014 3289c-25 82-102 115-173 74z"
             style={{
-              filter: "url(#duotone-filter-2)",
+              filter: "url(#duotone-filter-12)",
             }}
           />
           <path
@@ -853,16 +936,13 @@ function SvgImage() {
           <path
             fill="#14192B"
             d="M10494 6989 6177 4516c-68-39-103-133-79-211l967-3141c20-63 58-114 119-96 65 20 280 159 353 201l4011 2297c67 39 123 113 99 191l-981 3164c-24 78-105 107-172 68z"
-            style={{
-              filter: "url(#duotone-filter-12)",
-            }}
           />
           <path
             fill="#216FAB"
             fillOpacity={0.501961}
             d="M10295 6052 7353 4354c-46-27-70-92-54-145l666-2160c16-54 67-76 113-49l2942 1698c46 27 70 92 54 146l-666 2160c-16 53-67 75-113 48z"
             style={{
-              filter: "url(#duotone-filter-11)",
+              filter: "url(#duotone-filter-14)",
             }}
           />
           <path
@@ -878,7 +958,7 @@ function SvgImage() {
             fillOpacity={0.501961}
             d="M9897 6104 6956 4406c-46-27-71-92-54-145l665-2160c17-54 67-75 114-49l2941 1699c46 26 71 91 54 145l-665 2160c-17 53-67 75-114 48z"
             style={{
-              filter: "url(#outline-filter-0)",
+              filter: "url(#duotone-filter-13)",
             }}
           />
           <path
@@ -914,17 +994,18 @@ function SvgImage() {
             d="m10353 3937-4-3c-12-7-19-24-15-38 5-14 18-19 30-12l4 2c13 7 19 24 15 38s-17 20-30 13z"
           />
           <path
-            fill="url(#e)"
             d="M4395 2302H2653l162 1886c0 105 69 210 207 289 277 160 726 160 1003 0 139-79 208-184 208-289l162-1886z"
             style={{
-              filter: "url(#duotone-filter-4)",
+              fill: "url(#gradient-0)",
+              stroke: "url(#gradient-2-0)",
+              filter: "url(#duotone-filter-0)",
             }}
           />
           <path
             fill="#216FAB"
             d="M3548 3994c-19 75-96 119-170 99s-118-96-99-170c20-75 90-96 165-76 74 20 124 73 104 147zM3658 3848c-28 27-64 24-88-1-23-24-26-60 2-87 28-28 81-41 105-17s9 77-19 105zM3512 3731c-6 39-38 57-71 51-34-6-57-34-50-72 7-39 42-81 76-75 33 6 52 58 45 96zM3333 3713c15 37-2 69-33 82-32 12-66 2-81-35-15-36-7-90 24-103 32-13 75 20 90 56z"
             style={{
-              filter: "url(#duotone-filter-13)",
+              filter: "url(#duotone-filter-8)",
             }}
           />
           <path
@@ -937,7 +1018,7 @@ function SvgImage() {
             fillOpacity={0.4}
             d="M4395 2302H2653l26 310c40 51 94 100 162 145 333 221 882 264 1257 105l-58 1379c-3 60-23 119-62 165-57 66-166 144-375 189 154-10 304-49 422-118 139-79 208-184 208-289l130-1513 32-373z"
             style={{
-              filter: "url(#duotone-filter-5)",
+              filter: "url(#duotone-filter-1)",
             }}
           />
           <path
@@ -954,7 +1035,7 @@ function SvgImage() {
             fill="url(#f)"
             d="M4446 2278v-4l-17-169v2c-8-128-96-254-265-352-354-204-927-204-1281 0-173 100-261 231-264 362l-1-1-16 151c0 4-1 8-1 12v2c-9 143 80 288 270 398 360 208 945 208 1306 0 190-110 280-257 269-401z"
             style={{
-              filter: "url(#duotone-filter-3)",
+              filter: "url(#duotone-filter-4)",
             }}
           />
           <ellipse
@@ -964,7 +1045,7 @@ function SvgImage() {
             rx={750}
             ry={433}
             style={{
-              filter: "url(#duotone-filter-9)",
+              filter: "url(#duotone-filter-7)",
             }}
           />
           <ellipse
@@ -974,7 +1055,7 @@ function SvgImage() {
             rx={750}
             ry={433}
             style={{
-              filter: "url(#duotone-filter-8)",
+              filter: "url(#duotone-filter-5)",
             }}
           />
           <path
@@ -986,14 +1067,14 @@ function SvgImage() {
             fill="url(#i)"
             d="M2993 1894c293-170 768-170 1061 0 130 75 202 170 217 268 18-123-54-249-217-344-293-169-768-169-1061 0-163 95-235 221-217 344 15-98 87-193 217-268z"
             style={{
-              filter: "url(#duotone-filter-7)",
+              filter: "url(#duotone-filter-6)",
             }}
           />
           <path
             fill="url(#j)"
             d="M4170 1759c-353-208-929-213-1286-11-356 202-359 534-6 742s928 213 1285 11c357-201 360-534 7-742zm-116 672c-98 56-216 94-341 112l-13-44c-6-18-23-31-42-31h-269c-19 0-35 13-41 31l-14 44c-125-18-243-56-341-112-293-169-293-443 0-613 293-169 768-169 1061 0 293 170 293 444 0 613z"
             style={{
-              filter: "url(#duotone-filter-6)",
+              filter: "url(#duotone-filter-3)",
             }}
           />
           <path
@@ -1004,7 +1085,7 @@ function SvgImage() {
             fill="#fff"
             d="M4163 2469c-357 202-932 197-1285-11-168-99-255-226-263-354-6 138 81 279 263 386 353 208 928 213 1285 11 187-105 277-247 269-388-7 130-96 259-269 356z"
             style={{
-              filter: "none",
+              filter: "url(#duotone-filter-2)",
             }}
           />
           <path
@@ -1022,7 +1103,7 @@ function SvgImage() {
           />
         </g>
       </svg>
-);
+    );
 }
 
 export default SvgImage;

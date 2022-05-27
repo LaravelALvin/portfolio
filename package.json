@@ -5,7 +5,8 @@
   "scripts": {
     "local": "env-cmd -f environments/.env.local node server.js",
     "dev": "next dev",
-    "build": "next build",
+    "build": "next build && next export",
+    "export":"next export",
     "start": "next start",
     "lint": "next lint"
   },

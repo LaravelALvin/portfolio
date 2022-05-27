@@ -1,7 +1,7 @@
 /** @type {import('next').NextConfig} */
 module.exports = {
-  // https://github.com/vercel/next.js/issues/21079
-  // Remove this workaround whenever the issue is fixed
+  basePath: '/portfolio',
+  assetPrefix: '/portfolio',
   images: {
     loader: 'imgix',
     path: '/',

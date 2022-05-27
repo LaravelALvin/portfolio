@@ -160,7 +160,7 @@ function Footer({ hideHire, hideSocial, secondary }) {
               <Link href="/">
                 <a>
                   <Image
-                    src="/assets/logos/logo.png"
+                    src="../../assets/logos/logo.png"
                     alt="Logo"
                     className="footer-logo"
                     width="92.8px"

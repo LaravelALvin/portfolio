@@ -6,7 +6,7 @@
     "local": "env-cmd -f environments/.env.local node server.js",
     "dev": "next dev",
     "build": "next build",
-    "export":"next export",
+    "export": "next export",
     "start": "next start",
     "lint": "next lint"
   },
@@ -17,6 +17,7 @@
     "formik": "^2.2.9",
     "lodash": "^4.17.21",
     "next": "12.1.5",
+    "next-optimized-images": "^2.6.2",
     "nodemailer": "^6.7.3",
     "prop-types": "^15.8.1",
     "react": "^18.0.0",

@@ -58,7 +58,7 @@ function Root({ title, description, banner, children }) {
           sizes="180x180"
           href="/apple-touch-icon-180.png"
         />
-        <link rel="manifest" href="/manifest.json" />
+        <link rel="manifest" href="/portfolio/manifest.json" />
         <title>{title}</title>
         <meta property="og:locale" content="en_GB" />
         <meta property="og:type" content="website" />

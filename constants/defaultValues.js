@@ -1,5 +1,5 @@
-export const appBaseUrl = process.env.NEXT_PUBLIC_APP_URL;
-export const fileBaseUrl = process.env.NEXT_PUBLIC_API_URL;
+export const appBaseUrl = "https://laravelalvin.github.io/portfolio/";
+export const fileBaseUrl = "https://laravelalvin.github.io/portfolio/";
 export const logoPath = '/assets/logos/logo.png';
 export const logoButtonPath = '/assets/logos/logo-button.png';
 export const siteTitle = 'Alvin Fernando - Fullstack, Web and Mobile Developer';

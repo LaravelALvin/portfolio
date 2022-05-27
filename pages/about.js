@@ -53,7 +53,7 @@ export default function About() {
             >
               <div>
                 <img
-                  src="/assets/img/portrait2.jpeg"
+                  src="https://laravelalvin.github.io/portfolio/assets/img/portrait2.jpeg"
                   alt={`Portrait of ${devName}`}
                   className="portrait"
                 />

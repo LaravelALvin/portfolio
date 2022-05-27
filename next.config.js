@@ -1,9 +1,16 @@
 /** @type {import('next').NextConfig} */
-module.exports = {
-  basePath: '/portfolio',
-  assetPrefix: '/portfolio',
+const nextConfig = {
+  reactStrictMode: false,
   images: {
-    loader: 'imgix',
-    path: '/',
+    domains: [
+      'localhost',
+      'localhost:3000',
+      'alvinf.vercel.app',
+      'laravelalvin.github.io/portfolio'
+    ],
   },
-}
+};
+
+module.exports = nextConfig;
+
+

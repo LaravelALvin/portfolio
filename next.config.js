@@ -4,6 +4,6 @@ module.exports = {
   assetPrefix: 'https://laravelalvin.github.io/portfolio/',
   images: {
     loader: 'imgix',
-    path: 'https://laravelalvin.github.io/portfolio/',
+    path: '/',
   },
 }

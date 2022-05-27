@@ -1,4 +1,13 @@
-module.exports = {
-  basePath: process.env.NEXT_PUBLIC_BASE_PATH,
-  assetPrefix: process.env.NEXT_PUBLIC_BASE_PATH
-}
+/** @type {import('next').NextConfig} */
+const nextConfig = {
+  reactStrictMode: false,
+  images: {
+    domains: [
+      'localhost',
+      'localhost:3000',
+      'alvinf.vercel.app',
+    ],
+  },
+};
+
+module.exports = nextConfig;

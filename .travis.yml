@@ -19,6 +19,6 @@ deploy:
 notifications:
   email:
     recipients:
-    - alvinfernando404@gmail.com
+    - alvinchuy09@gmail.com
     on_success: change
     on_failure: always

@@ -1,7 +1,7 @@
 /** @type {import('next').NextConfig} */
 module.exports = {
-  basePath: 'https://laravelalvin.github.io/portfolio/',
-  assetPrefix: 'https://laravelalvin.github.io/portfolio/',
+  basePath: '/portfolio',
+  assetPrefix: '/portfolio',
   images: {
     loader: 'imgix',
     path: '/',

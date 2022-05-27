@@ -34,7 +34,7 @@ function Root({ title, description, banner, children }) {
     <>
       <Head>
         <meta charSet="utf-8" />
-        <link rel="icon" href="/favicon.png" />
+        <link rel="icon" href="/portfolio/favicon.png" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <meta name="theme-color" content={theme.colors.primary} />
         <link rel="apple-touch-icon" href="/apple-touch-icon-180.png" />

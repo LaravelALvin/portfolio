@@ -15,7 +15,7 @@ import SvgImage from './SvgImage';
 
 function HomeBannerSection({ scrollToRef }) {
   const devDescrip =
-    'A Competent Graphics Designer, Web and Mobile Developer. I love Creating Enchanted, Human-Centered & Distinctive Virtual Experiences.';
+    'A Competent Graphic Designer, Web and Mobile Developer. I love Creating Enchanted, Human-Centered & Distinctive Virtual Experiences.';
 
   const scrollDown = () => {
     scrollToElement(scrollToRef?.current);

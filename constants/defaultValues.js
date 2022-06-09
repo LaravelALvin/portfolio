@@ -326,7 +326,7 @@ export const blogSingle = {
   shortDescrip:
     'All the way from North Eastern Mindanao, I am currently taking my bachelor\'s degree in Information Technology. I am on my 4th year and hopefully I will graduate this year.',
   content:
-    'All the way from North Eastern Mindanao, I am currently taking my bachelor\'s degree in Information Technology. I am on my 4th year and hopefully I will graduate this year. \n\n Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
+    'All the way from North Eastern Mindanao, I am currently taking my bachelor\'s degree in Information Technology. I am on my 4th year and hopefully I will graduate this year. \n\n I have been through a lot of battles in life and life never fails me to aquire lessons and learning. Life is lovely. However, much of the beauty is obscured by our unsatisfied yearning. We strive to accomplish far too much in our brief lives. We crave money, riches, and fame - frequently without considering whether or not it is within our grasp. Often, our goal exceeds our existing resources, aptitude, and capability. When we fail to achieve our goals, we blame our circumstances, and we blame others for abandoning us or failing to assist us sufficiently. In this manner, we arrive at grief and frustration. We whine about pain, rail against insects, snow, and stupid people, and succumb to doubt and cynicism. Every day, we die for many reasons. So, be alive and lead a balanced life. He lives long who lives well. ',
   thumb: {
     url: '/assets/img/portrait3.jpeg',
   },
@@ -337,9 +337,9 @@ export const blogSingle2 = {
   title: 'A Day in a Life of Alvin',
   publishDateTime: '2021-10-11T20:26:46.005Z',
   shortDescrip:
-    'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.',
+    'Coffee? Lets go! My day always starts with the aroma of coffee beans. This thing gives me energy to finish my tasks throughout the day.',
   content:
-    'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
+    'Coffee? Lets go! My day always starts with the aroma of coffee beans. This thing gives me energy to finish my tasks throughout the day. ',
   thumb: {
     url: '/assets/img/portrait2.jpeg',
   },
